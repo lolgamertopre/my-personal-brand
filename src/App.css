@@ -249,6 +249,7 @@
   border: 1px solid #1e293b;
   padding: 1.5rem;
   border-radius: 10px;
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
 .project-card:hover {
