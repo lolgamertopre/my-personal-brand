@@ -3,10 +3,10 @@ import './App.css';
 
 function App() {
   const profile = {
-    name: "Your Full Name",
+    name: "Sherwin Lonzaga Banquil",
     title: "Full-Stack Developer | Tech Enthusiast",
     bio: "Passionate software engineer building web applications with React, Node.js, and Linux.",
-    skills: ["React", "JavaScript", "Linux", "Node.js", "Git & GitHub", "Tailwind CSS"],
+    skills: ["React", "JavaScript", "Linux", "Node.js", "Git & GitHub", "Tailwind CSS, Php, MySQL, Bootstrap, Laravel, HTML, CSS, Python, JavaScript} "],
     projects: [
       {
         title: "Personal Brand Portfolio",
@@ -21,8 +21,8 @@ function App() {
     ],
     socials: {
       github: "https://github.com/lolgamertopre",
-      linkedin: "https://linkedin.com/in/your-profile",
-      email: "mailto:your.email@example.com"
+      linkedin: "https://www.linkedin.com/in/sherwin-banquil-9126673b8/?trk=public-profile-join-page",
+      email: "Kasherwinbanquil@gmail.com"
     }
   };
 
