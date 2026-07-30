@@ -182,3 +182,92 @@
     border-right-color: var(--border);
   }
 }
+/* Smooth transitions for all interactive elements */
+.btn-primary, .btn-secondary, .project-card, .skill-badge, .project-link {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* Primary Button (GitHub) */
+.btn-primary {
+  padding: 0.6rem 1.25rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
+}
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Secondary Buttons (LinkedIn, Contact) */
+.btn-secondary {
+  padding: 0.6rem 1.25rem;
+  background-color: #1e293b;
+  color: #e2e8f0;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border: 1px solid #334155;
+}
+.btn-secondary:hover {
+  background-color: #334155;
+  transform: translateY(-2px);
+}
+.btn-secondary:active {
+  transform: translateY(0);
+}
+
+/* Skill Badges */
+.skill-badge {
+  background-color: #1e293b;
+  color: #38bdf8;
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  border: 1px solid #334155;
+}
+.skill-badge:hover {
+  background-color: #38bdf8;
+  color: #0f172a;
+  border-color: #38bdf8;
+  transform: scale(1.05);
+}
+
+/* Project Cards */
+.project-card {
+  background-color: rgba(15, 23, 42, 0.7);
+  border: 1px solid #1e293b;
+  padding: 1.5rem;
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+}
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #38bdf8;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  background-color: rgba(30, 41, 59, 0.9);
+}
+
+/* Links inside projects */
+.project-link {
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.project-link:hover {
+  color: #93c5fd;
+  text-decoration: underline;
+}
