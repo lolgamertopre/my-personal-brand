@@ -39,14 +39,14 @@ export default function RightPanel() {
       case 'about':
         newHistory.push({
           type: 'output',
-          text: 'Sherwin Lonzaga Banquil - Software Engineer & Full-Stack Developer located in Cebu City, PH.'
+          text: 'Sherwin Banquil - Aspiring Web Developer located in Cebu City, PH seeking an internship opportunity.'
         });
         break;
 
       case 'skills':
         newHistory.push({
           type: 'output',
-          text: 'React, Node.js, Laravel, PHP, Python, Java Spring Boot, MySQL, AWS, Linux, Tailwind CSS.'
+          text: 'React, JavaScript, HTML, CSS, PHP, MySQL, Git, Linux.'
         });
         break;
 
@@ -103,7 +103,7 @@ export default function RightPanel() {
           <span>System Status</span>
           <div className="status-badge-pill">
             <span className="pulse-dot" />
-            Available for Hire
+            Open for Internship
           </div>
         </div>
 
@@ -169,16 +169,16 @@ export default function RightPanel() {
 
         <div className="focus-item-list">
           <div className="focus-bullet-item">
-            <span>•</span> Java Spring Boot
+            <span>•</span> React & Modern Frontend Web Apps
           </div>
           <div className="focus-bullet-item">
-            <span>•</span> Advanced System Architecture
+            <span>•</span> Backend Integration (PHP & Node.js)
           </div>
           <div className="focus-bullet-item">
-            <span>•</span> Cloud Infrastructure and Services
+            <span>•</span> Relational Databases (MySQL)
           </div>
           <div className="focus-bullet-item">
-            <span>•</span> AI Agent Integrations
+            <span>•</span> Securing a Web Developer Internship
           </div>
         </div>
       </div>

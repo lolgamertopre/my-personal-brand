@@ -22,17 +22,17 @@ export default function AiDrawer({ isOpen, onClose }) {
 
     // Generate intelligent responses based on keywords
     setTimeout(() => {
-      let replyText = "Sherwin is a Full-Stack Developer experienced in React, Node.js, Laravel, PHP, Python, and Linux automation. Feel free to contact him via email or schedule a call!";
+      let replyText = "Sherwin Banquil is an aspiring Web Developer seeking a Web Development Internship. He builds responsive web applications using React, JavaScript, PHP, HTML, CSS, and MySQL!";
 
       const q = userText.toLowerCase();
       if (q.includes('skill') || q.includes('stack') || q.includes('technology')) {
-        replyText = "Sherwin's primary stack includes React, JavaScript (ES6+), Node.js, PHP, Laravel, Python, MySQL, Linux, and Cloud services (AWS, Vercel).";
-      } else if (q.includes('hire') || q.includes('job') || q.includes('available') || q.includes('work')) {
-        replyText = "Yes! Sherwin is currently 100% available for Software Engineer, Full-Stack Developer, and DevOps positions.";
+        replyText = "Sherwin's tech stack includes React, JavaScript, HTML5, CSS3, PHP, MySQL, Git, and Linux.";
+      } else if (q.includes('hire') || q.includes('job') || q.includes('available') || q.includes('intern') || q.includes('work')) {
+        replyText = "Yes! Sherwin is actively seeking an Internship position as a Web Developer where he can learn and contribute.";
       } else if (q.includes('location') || q.includes('where')) {
-        replyText = "Sherwin is based in Cebu City, Philippines (PHT / GMT+8) and is available for both remote and on-site roles.";
+        replyText = "Sherwin is based in Cebu City, Philippines (PHT / GMT+8) and is open for remote or local internship roles.";
       } else if (q.includes('contact') || q.includes('email')) {
-        replyText = "You can reach Sherwin directly via email or GitHub (github.com/lolgamertopre), or use the Schedule a Call button on the sidebar!";
+        replyText = "You can reach Sherwin via email or check out his projects on GitHub (github.com/lolgamertopre)!";
       }
 
       setMessages((prev) => [...prev, { role: 'assistant', text: replyText }]);

@@ -48,19 +48,19 @@ export default function MainContent({
         </div>
 
         <h1 className="section-headline">
-          Building practical, user-centered software & cloud architectures.
+          Building practical, user-centered web applications & seeking an internship.
         </h1>
 
         <p className="bio-paragraph">
-          I'm <strong>Sherwin Lonzaga Banquil</strong> — a Software Engineer and Full-Stack Developer with hands-on experience in building scalable web applications, backend APIs, and modern UI components.
+          I'm <strong>Sherwin Banquil</strong> — an aspiring Web Developer looking for an internship opportunity where I can apply my web development skills, learn from an experienced engineering team, and build real-world software.
         </p>
 
         <p className="bio-paragraph">
-          I focus on turning complex problem statements into clean, maintainable, and high-performance digital products. My core expertise spans React, Node.js, Laravel, PHP, Python, Java Spring Boot, and cloud services.
+          I focus on turning problem statements into clean, maintainable, and responsive web applications. My core stack includes React, JavaScript, HTML, CSS, PHP, MySQL, and Linux tools.
         </p>
 
         <div className="status-callout">
-          <span>✦</span> Open for Software Engineer, Full-Stack Developer, and DevOps positions.
+          <span>✦</span> Open for Web Developer Internship and Entry-Level positions.
         </div>
 
         <div className="links-row">
@@ -80,19 +80,19 @@ export default function MainContent({
           <div className="stat-summary-card">
             <div className="stat-header">
               <span className="stat-icon">💻</span>
-              <span className="stat-category">FULL-STACK DEV</span>
+              <span className="stat-category">WEB DEV LEARNER</span>
             </div>
-            <div className="stat-number-value">3+ Yrs</div>
-            <div className="stat-desc-label">Building modern web & cloud solutions</div>
+            <div className="stat-number-value">Aspiring Dev</div>
+            <div className="stat-desc-label">Building web apps & learning modern tools</div>
           </div>
 
           <div className="stat-summary-card">
             <div className="stat-header">
               <span className="stat-icon">🚀</span>
-              <span className="stat-category">SHIPPED & DEPLOYED</span>
+              <span className="stat-category">SHIPPED & BUILT</span>
             </div>
-            <div className="stat-number-value">10+ Projects</div>
-            <div className="stat-desc-label">Enterprise, capstone & client apps</div>
+            <div className="stat-number-value">4+ Projects</div>
+            <div className="stat-desc-label">Portfolio, capstone & client apps</div>
           </div>
 
           <div className="stat-summary-card">
@@ -100,17 +100,17 @@ export default function MainContent({
               <span className="stat-icon">⚡</span>
               <span className="stat-category">ACTIVE STACK</span>
             </div>
-            <div className="stat-number-value">15+ Tech</div>
-            <div className="stat-desc-label">React, Node, Laravel, Python, AWS</div>
+            <div className="stat-number-value">10+ Tech</div>
+            <div className="stat-desc-label">React, JavaScript, PHP, MySQL, Linux</div>
           </div>
 
           <div className="stat-summary-card">
             <div className="stat-header">
               <span className="stat-icon">📜</span>
-              <span className="stat-category">CONTINUOUS LEARNING</span>
+              <span className="stat-category">CAREER GOAL</span>
             </div>
-            <div className="stat-number-value">20+ Certs</div>
-            <div className="stat-desc-label">Cloud, Full-Stack, & Security</div>
+            <div className="stat-number-value">Internship</div>
+            <div className="stat-desc-label">Seeking Web Dev Intern Positions</div>
           </div>
         </div>
       </section>

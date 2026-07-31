@@ -120,15 +120,15 @@ function App() {
     faqs: [
       {
         question: "What positions are you currently open to?",
-        answer: "I am actively seeking Software Engineer, Full-Stack Developer, and DevOps positions. I am open to full-time, contract, remote, and hybrid arrangements."
+        answer: "I am actively seeking Web Developer Internship and Junior Web Developer positions where I can gain hands-on experience, learn from team mentors, and contribute to web projects."
       },
       {
         question: "What is your primary programming stack?",
-        answer: "My core expertise lies in React, JavaScript/TypeScript, Node.js, PHP, Laravel, Python, MySQL, and Linux environments, with experience in Java Spring Boot and AWS."
+        answer: "My primary focus is on React, JavaScript, HTML5, CSS3, PHP, and MySQL database management."
       },
       {
         question: "Where are you located?",
-        answer: "I am based in Cebu City, Philippines (PHT / GMT+8). I work fluently with international teams across various time zones."
+        answer: "I am based in Cebu City, Philippines (PHT / GMT+8) and open for local or remote internship roles."
       }
     ]
   };
@@ -230,21 +230,21 @@ function App() {
                 className="filter-pill-btn"
                 style={{ textAlign: 'left', padding: '0.75rem 1rem', fontSize: '0.88rem' }}
                 onClick={() => {
-                  window.location.href = "mailto:your.email@example.com?subject=Job%20Opportunity%20Discussion";
+                  window.location.href = "mailto:your.email@example.com?subject=Web%20Developer%20Internship%20Inquiry";
                   setIsScheduleModalOpen(false);
                 }}
               >
-                💼 Job Opportunity / Technical Role Interview
+                💼 Web Developer Internship Opportunity / Interview
               </button>
               <button
                 className="filter-pill-btn"
                 style={{ textAlign: 'left', padding: '0.75rem 1rem', fontSize: '0.88rem' }}
                 onClick={() => {
-                  window.location.href = "mailto:your.email@example.com?subject=Project%20Consultation";
+                  window.location.href = "mailto:your.email@example.com?subject=Portfolio%20Feedback";
                   setIsScheduleModalOpen(false);
                 }}
               >
-                🚀 Project Consultation & Architecture
+                🚀 Connect & Portfolio Feedback
               </button>
             </div>
 

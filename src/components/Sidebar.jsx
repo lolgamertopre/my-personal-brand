@@ -47,7 +47,7 @@ export default function Sidebar({
 
         <div>
           <h2 className="profile-name">
-            Sherwin Ruales
+            Sherwin Banquil
             <span style={{ color: '#38bdf8', fontSize: '0.85rem' }}>✔</span>
           </h2>
           <div className="profile-location">
@@ -56,7 +56,7 @@ export default function Sidebar({
         </div>
 
         <p className="profile-bio">
-          Software Engineer & Full-Stack Developer specializing in web apps, cloud architectures, & AI integrations.
+          Aspiring Web Developer seeking an Internship opportunity to build scalable web apps and grow with a great engineering team.
         </p>
 
         {/* AI Assistant Drawer Trigger */}
