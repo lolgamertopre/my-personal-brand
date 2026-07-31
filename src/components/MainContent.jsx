@@ -248,68 +248,18 @@ export default function MainContent({
       <section id="certifications" className="section-card">
         <div className="section-header-tag">
           <span>05 // CERTIFICATIONS</span>
-          <span className="location-tag">Verified Credentials</span>
+          <span className="location-tag">In Progress</span>
         </div>
 
-        <div className="certs-grid">
-          {certifications.map((c, i) => (
-            <div key={i} className="cert-card">
-              <div className="cert-icon-box">🏆</div>
-              <div>
-                <div className="cert-name">{c.title}</div>
-                <div className="cert-issuer">{c.issuer} • {c.year}</div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
+          Currently pursuing web development and programming certifications.
+        </p>
       </section>
 
-      {/* 06 // RECOMMENDATIONS */}
-      <section id="recommendations" className="section-card">
-        <div className="section-header-tag">
-          <span>06 // RECOMMENDATIONS</span>
-          <span className="location-tag">Peer & Client Feedback</span>
-        </div>
-
-        <div className="timeline-list">
-          {recommendations.map((rec, i) => (
-            <div key={i} className="timeline-card">
-              <p style={{ fontStyle: 'italic', marginBottom: '0.75rem', color: 'var(--text-main)' }}>
-                "{rec.quote}"
-              </p>
-              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.82rem' }}>
-                <strong style={{ color: 'var(--accent-cyan)' }}>{rec.author}</strong>
-                <span style={{ color: 'var(--text-subtle)' }}>{rec.role}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* 07 // COURSES */}
-      <section id="courses" className="section-card">
-        <div className="section-header-tag">
-          <span>07 // COURSES</span>
-          <span className="location-tag">Continuous Education</span>
-        </div>
-
-        <div className="certs-grid">
-          {courses.map((course, i) => (
-            <div key={i} className="cert-card">
-              <div className="cert-icon-box">📚</div>
-              <div>
-                <div className="cert-name">{course.name}</div>
-                <div className="cert-issuer">{course.platform}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* 08 // BOOK OF ANSWERS */}
+      {/* 06 // BOOK OF ANSWERS */}
       <section id="answers" className="section-card">
         <div className="section-header-tag">
-          <span>08 // BOOK OF ANSWERS</span>
+          <span>06 // BOOK OF ANSWERS</span>
           <span className="location-tag">Frequently Asked Questions</span>
         </div>
 
@@ -333,10 +283,10 @@ export default function MainContent({
         </div>
       </section>
 
-      {/* 09 // CONTACT */}
+      {/* 07 // CONTACT */}
       <section id="contact" className="section-card">
         <div className="section-header-tag">
-          <span>09 // CONTACT</span>
+          <span>07 // CONTACT</span>
           <span className="location-tag">Get In Touch</span>
         </div>
 

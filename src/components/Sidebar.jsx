@@ -6,10 +6,8 @@ const navItems = [
   { id: 'projects', label: '03 - projects' },
   { id: 'stack', label: '04 - stack' },
   { id: 'certifications', label: '05 - certifications' },
-  { id: 'recommendations', label: '06 - recommendations' },
-  { id: 'courses', label: '07 - courses' },
-  { id: 'answers', label: '08 - book of answers' },
-  { id: 'contact', label: '09 - contact' }
+  { id: 'answers', label: '06 - book of answers' },
+  { id: 'contact', label: '07 - contact' }
 ];
 
 export default function Sidebar({
