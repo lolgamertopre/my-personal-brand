@@ -31,6 +31,7 @@ function App() {
         setIsAiDrawerOpen((prev) => !prev);
       }
     };
+
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
@@ -293,7 +294,7 @@ function App() {
                 className="filter-pill-btn"
                 style={{ textAlign: 'left', padding: '0.75rem 1rem', fontSize: '0.88rem' }}
                 onClick={() => {
-                  window.location.href = "mailto:your.email@example.com?subject=Web%20Developer%20Internship%20Inquiry";
+                  window.location.href = "mailto:kasherwinbanquil@gmail.com?subject=Web%20Developer%20Internship%20Inquiry";
                   setIsScheduleModalOpen(false);
                 }}
               >
@@ -303,7 +304,7 @@ function App() {
                 className="filter-pill-btn"
                 style={{ textAlign: 'left', padding: '0.75rem 1rem', fontSize: '0.88rem' }}
                 onClick={() => {
-                  window.location.href = "mailto:your.email@example.com?subject=Portfolio%20Feedback";
+                  window.location.href = "mailto:kasherwinbanquil@gmail.com?subject=Portfolio%20Feedback";
                   setIsScheduleModalOpen(false);
                 }}
               >
