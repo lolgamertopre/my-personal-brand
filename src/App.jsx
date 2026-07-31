@@ -38,41 +38,104 @@ function App() {
   // Profile data
   const profile = {
     skills: [
-      "React", "JavaScript", "Node.js", "Laravel", "PHP",
-      "Python", "Java Spring Boot", "Linux", "MySQL", "Tailwind CSS", "AWS"
+      "HTML", "CSS", "JavaScript", "React", "C", "Java", "PHP", "Bootstrap", "MySQL", "Linux"
     ],
     projects: [
       {
         id: 1,
         title: "Personal Brand Workstation",
         shortDesc: "Developer workstation portfolio featuring interactive CLI, AI drawer, and dark mode grid.",
-        fullDesc: "A high-performance personal portfolio featuring a 3-column workstation layout, dynamic state filtering, interactive shell commands, dark mode design system, and AI assistant drawer.",
-        techStack: ["React", "JavaScript", "CSS", "Vite", "Linux"],
+        fullDesc: "A personal portfolio built with React, Vite, and custom CSS featuring a 3-column developer dashboard, terminal simulator, and dark mode styling.",
+        techStack: ["JavaScript", "React", "HTML", "CSS"],
         link: "https://github.com/lolgamertopre/my-personal-brand"
       },
       {
         id: 2,
-        title: "PHP & MySQL Web Platform",
-        shortDesc: "Full-stack web application with relational DB schema & secure user authentication.",
-        fullDesc: "Complete web application built with PHP and MySQL, featuring dynamic backend routing, relational database schemas, secure session management, and responsive Bootstrap components.",
-        techStack: ["PHP", "MySQL", "HTML", "CSS", "Bootstrap"],
-        link: "https://github.com/lolgamertopre"
+        title: "SubSentry Subscription Auditor",
+        shortDesc: "Web application for managing and auditing subscriptions.",
+        fullDesc: "An educational web application for tracking and auditing active subscription services using Bootstrap and CSS styling.",
+        techStack: ["CSS", "HTML", "Bootstrap"],
+        link: "https://github.com/lolgamertopre/SPEC-SubSentry-Subscription-Auditor-PROF-SIR-MACTO"
       },
       {
         id: 3,
-        title: "Laravel E-Commerce Engine",
-        shortDesc: "Modern MVC backend API and dynamic store front interface.",
-        fullDesc: "E-Commerce engine built with Laravel MVC architecture, relational database models, payment gateway integration hooks, and Tailwind CSS UI styling.",
-        techStack: ["Laravel", "PHP", "MySQL", "Tailwind CSS"],
-        link: "https://github.com/lolgamertopre"
+        title: "Sir Eric Magto Final Project",
+        shortDesc: "Final C programming project developed for summer coursework.",
+        fullDesc: "A complete C language application implementing core data structures and logic for summer class coursework.",
+        techStack: ["C"],
+        link: "https://github.com/lolgamertopre/Sir-Eric-Magto-Final-Project"
       },
       {
         id: 4,
-        title: "Linux Workstation Automations",
-        shortDesc: "Bash & Python shell scripts for environment management and workplace setup.",
-        fullDesc: "Collection of Linux terminal automation tools created to manage project environments, automate package updates, and optimize workstation setup.",
-        techStack: ["Linux", "Python", "Node.js"],
-        link: "https://github.com/lolgamertopre"
+        title: "Dr. Santos Student Registry",
+        shortDesc: "Student registry management system written in C language.",
+        fullDesc: "A CLI student registry application built in C language featuring record management and search functions.",
+        techStack: ["C"],
+        link: "https://github.com/lolgamertopre/Challenge-1-Dr.-Santos-Student-Registry-Sherwin-PROJECT"
+      },
+      {
+        id: 5,
+        title: "SPEC Jack 'N Poy Game",
+        shortDesc: "Interactive Jack 'N Poy rock-paper-scissors web game.",
+        fullDesc: "A fun interactive Jack 'N Poy game implemented with JavaScript event listeners and dynamic DOM manipulation.",
+        techStack: ["JavaScript", "HTML", "CSS"],
+        link: "https://github.com/lolgamertopre/SPEC-JACK-N-POY-for-Macto"
+      },
+      {
+        id: 6,
+        title: "Java Hangman Game",
+        shortDesc: "Interactive command-line Hangman word guessing game in Java.",
+        fullDesc: "Java-based console game practicing Java Collections, ArrayLists, string manipulation, and game loop logic.",
+        techStack: ["Java"],
+        link: "https://github.com/lolgamertopre/Hangman-Game"
+      },
+      {
+        id: 7,
+        title: "Summer Class Grade Calculator",
+        shortDesc: "Grade calculation program created in C language.",
+        fullDesc: "A utility program developed in C language to calculate student grades and averages accurately.",
+        techStack: ["C"],
+        link: "https://github.com/lolgamertopre/Summer-Class-Banquil-Grade-Calculator."
+      },
+      {
+        id: 8,
+        title: "Spec 2 Bootstrap Project",
+        shortDesc: "Web layout output built with Bootstrap framework and custom CSS.",
+        fullDesc: "A responsive website layout showcasing Bootstrap grid layout, component styling, and CSS customization.",
+        techStack: ["HTML", "CSS", "Bootstrap"],
+        link: "https://github.com/lolgamertopre/my-output-for-spec-2-zzzzz"
+      },
+      {
+        id: 9,
+        title: "Java OOP Practice & Exercises",
+        shortDesc: "Object-Oriented Programming exercises and Java collection practice.",
+        fullDesc: "A collection of Java OOP programs practicing classes, inheritance, encapsulation, and collection frameworks.",
+        techStack: ["Java"],
+        link: "https://github.com/lolgamertopre/Session-4-Java-Object-Oriented-Programming-with-Quentin-CILLIERRE-Dimitri-LAFITTE-June-15-2026"
+      },
+      {
+        id: 10,
+        title: "C Programming Practice & Loops",
+        shortDesc: "Practice repository for C language loops, conditions, and logic.",
+        fullDesc: "A collection of C programming scripts practicing fundamental loops, array manipulations, and problem-solving techniques.",
+        techStack: ["C"],
+        link: "https://github.com/lolgamertopre/PROG-PRAC"
+      },
+      {
+        id: 11,
+        title: "WorldTrigger",
+        shortDesc: "Java programming project.",
+        fullDesc: "Java project created to practice software development techniques and OOP principles.",
+        techStack: ["Java"],
+        link: "https://github.com/lolgamertopre/WorldTrigger-"
+      },
+      {
+        id: 12,
+        title: "2nd Semester Web Project",
+        shortDesc: "Semester web project exploring HTML, CSS, and basic JavaScript loops.",
+        fullDesc: "A semester project demonstrating foundational HTML page structure, styling, and introductory JavaScript logic.",
+        techStack: ["HTML", "CSS", "JavaScript"],
+        link: "https://github.com/lolgamertopre/my-2nd-semester-project-sheesh"
       }
     ],
     experience: [
