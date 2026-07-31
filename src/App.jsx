@@ -38,7 +38,7 @@ function App() {
   // Profile data
   const profile = {
     skills: [
-      "React", "JavaScript", "Node.js", "Laravel", "PHP", 
+      "React", "JavaScript", "Node.js", "Laravel", "PHP",
       "Python", "Java Spring Boot", "Linux", "MySQL", "Tailwind CSS", "AWS"
     ],
     projects: [
@@ -79,10 +79,10 @@ function App() {
       {
         id: 1,
         period: "2026",
-        category: "WORK",
-        role: "Software Engineer Intern",
-        organization: "Kyocera Document Solutions Philippines, Inc.",
-        description: "Engineered web services, software tools, and document management solutions. Optimized backend database queries and collaborated on modern UI/UX components."
+        category: "PROGRAM",
+        role: "Synchrony YES Participant",
+        organization: "Synchrony",
+        description: "Participated in the Youth Employment & Skills (YES) program. Developed technical skills, collaborated on software projects, and enhanced professional readiness."
       },
       {
         id: 2,
