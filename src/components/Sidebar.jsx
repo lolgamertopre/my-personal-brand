@@ -32,11 +32,11 @@ export default function Sidebar({
       <div className="sidebar-profile">
         <div className="avatar-wrapper">
           <img
-            src="/avatar.png"
+            src="/profile.jpg"
             alt="Sherwin Lonzaga Banquil"
             className="avatar-img"
             onError={(e) => {
-              // Fallback avatar SVG if image fail
+              // Fallback avatar SVG if image fails
               e.target.src = "https://ui-avatars.com/api/?name=Sherwin+Banquil&background=0284c7&color=fff";
             }}
           />
@@ -85,7 +85,7 @@ export default function Sidebar({
         </button>
 
         <div className="btn-row">
-          <a href="mailto:your.email@example.com" className="btn-pill-dark">
+          <a href="mailto:kasherwinbanquil@gmail.com" className="btn-pill-dark">
             ✉ Email
           </a>
           <a href="#contact" onClick={() => scrollToSection('contact')} className="btn-pill-dark">
