@@ -70,7 +70,7 @@ export default function MainContent({
           <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="link-item">
             linkedin ↗
           </a>
-          <a href="mailto:your.email@example.com" className="link-item">
+          <a href="mailto: [EMAIL_ADDRESS]" className="link-item">
             email ↗
           </a>
         </div>
