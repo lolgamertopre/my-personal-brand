@@ -1504,3 +1504,134 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ---- Section spacer ---- */
+.retro-section-spacer {
+  height: 2.5rem;
+}
+
+/* ---- Answers / FAQ ---- */
+.answers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.answer-item {
+  border: 1px solid #E4D8C8;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #FFFFFF;
+}
+
+.answer-question-btn {
+  width: 100%;
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 1.1rem;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-dark-primary);
+  text-align: left;
+  cursor: pointer;
+  gap: 1rem;
+}
+
+.answer-question-btn:hover {
+  background-color: #FAF5EC;
+}
+
+.answer-chevron {
+  font-size: 1.3rem;
+  color: var(--accent-terracotta);
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.answer-body {
+  padding: 0 1.1rem 1rem;
+  font-size: 0.88rem;
+  color: var(--text-dark-secondary);
+  line-height: 1.6;
+  border-top: 1px solid #EDE4D8;
+  padding-top: 0.75rem;
+}
+
+/* ---- Contact ---- */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.65rem;
+  background: #FFFFFF;
+  border: 1px solid #E4D8C8;
+  border-radius: 6px;
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+  color: var(--text-dark-primary);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.contact-card-btn {
+  font-family: inherit;
+  border: 1px solid #E4D8C8;
+}
+
+.contact-card:hover {
+  border-color: var(--accent-terracotta);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.07);
+}
+
+.contact-icon {
+  width: 44px;
+  height: 44px;
+  background-color: #F5EDE0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-terracotta);
+}
+
+.contact-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-dark-secondary);
+  text-align: center;
+}
+
+/* ---- Project card footer link ---- */
+.project-card-footer {
+  margin-top: auto;
+  padding-top: 0.75rem;
+}
+
+.project-gh-link {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-terracotta);
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.project-gh-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
