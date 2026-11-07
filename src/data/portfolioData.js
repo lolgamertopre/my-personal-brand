@@ -1,100 +1,105 @@
-// Portfolio Data for Engr. Violdan E. Bayocot
+// Portfolio Data for Sherwin Lonzaga Banquil
 export const profileData = {
-  name: "ENGR. VIOLDAN E. BAYOCOT",
-  shortName: "VEB",
-  titles: ["DEVELOPER", "EDUCATOR", "RESEARCHER", "ENGINEER"],
-  currentRole: "Professor",
+  name: "SHERWIN L. BANQUIL",
+  shortName: "SLB",
+  titles: ["DEVELOPER", "DESIGNER", "LEARNER", "BUILDER"],
+  currentRole: "Aspiring Web Developer",
   currentDepartment: "School of Computer Studies",
   currentInstitution: "University of San Jose - Recoletos",
-  currentPeriod: "JANUARY 2024 - PRESENT",
-  headline: "Computer enthusiast bridging industry and academe. I build, teach, and research. Currently shaping the next generation of computing professionals.",
-  degreesCount: 2,
-  coursesTaughtCount: 21,
-  publicationsCount: 1,
-  projectsCount: "20+",
+  currentPeriod: "2024 - PRESENT",
+  headline: "Computer Technology student & aspiring Web Developer based in Cebu City, Philippines. I turn problem statements into clean, responsive software solutions. Passionate about modern web development, algorithms, and continuous learning.",
+  degreesCount: 1,
+  coursesTaughtCount: 12,
+  publicationsCount: 4,
+  projectsCount: "12+",
   lastUpdated: "November 7, 2026, 12:10 AM PHT",
   targetDate: "2027-04-29T00:00:00+08:00",
-  email: "violdanbayocot@gmail.com",
-  altEmail: "vebayocot@usjr.edu.ph",
+  email: "kasherwinbanquil@gmail.com",
+  altEmail: "sherwin.banquil@usjr.edu.ph",
   phone: "+63 912 345 6789",
   location: "Cebu City, Philippines",
-  interests: ["Applied Research", "Gaming & Development", "Weightlifting"],
+  interests: ["Web Development", "PC Building & Hardware", "Weightlifting"],
   links: [
-    { id: "email", label: "Email", href: "mailto:violdanbayocot@gmail.com", icon: "mail" },
-    { id: "altEmail", label: "Alternate Email", href: "mailto:vebayocot@usjr.edu.ph", icon: "mail-alt" },
+    { id: "email", label: "Email", href: "mailto:kasherwinbanquil@gmail.com", icon: "mail" },
+    { id: "altEmail", label: "Alternate Email", href: "mailto:sherwin.banquil@usjr.edu.ph", icon: "mail-alt" },
     { id: "phone", label: "Call", href: "tel:+639123456789", icon: "phone" },
-    { id: "github", label: "GitHub", href: "https://github.com/violdanbayocot", icon: "github" },
-    { id: "facebook", label: "Facebook", href: "https://facebook.com/violdanbayocot", icon: "facebook" },
-    { id: "linkedin", label: "LinkedIn", href: "https://linkedin.com/in/violdanbayocot", icon: "linkedin" },
-    { id: "scholar", label: "Google Scholar", href: "https://scholar.google.com", icon: "scholar" },
-    { id: "orcid", label: "ORCID", href: "https://orcid.org", icon: "orcid" }
+    { id: "github", label: "GitHub", href: "https://github.com/lolgamertopre", icon: "github" },
+    { id: "facebook", label: "Facebook", href: "https://facebook.com", icon: "facebook" },
+    { id: "linkedin", label: "LinkedIn", href: "https://linkedin.com", icon: "linkedin" },
+    { id: "scholar", label: "Academic Record", href: "#education", icon: "scholar" },
+    { id: "portfolio", label: "Workstation", href: "https://github.com/lolgamertopre/my-personal-brand", icon: "code" }
   ]
 };
 
 export const degreesData = [
   {
-    id: "mcs",
-    degree: "Master in Computer Science",
-    institution: "Cebu Institute of Technology - University",
-    status: "Graduated [Soon]",
+    id: "act",
+    degree: "Associate in Computer Technology",
+    institution: "University of San Jose - Recoletos",
+    status: "Expected 2026",
     tag: "IN PROGRESS",
-    thesis: "An Edge-Cloud Hybrid Deep Learning Framework for Road Damage Detection with Automated GPS-Based Localization"
+    thesis: "Specializing in software engineering fundamentals, data structures, algorithm optimization, and relational database systems."
   },
   {
-    id: "bscpe",
-    degree: "Bachelor of Science in Computer Engineering",
-    institution: "Bohol Island State University",
-    status: "Graduated (2021)",
-    tag: "APRIL 2021",
-    thesis: "BrainIAC (Brain-Impulse Assisted Camera). Uses EEG to turn brainwave data into packets sent over Bluetooth to an ESP32 camera, so a photo can be taken hands-free by neural activity."
+    id: "yes-program",
+    degree: "Youth Employment & Skills (YES) Program",
+    institution: "Synchrony",
+    status: "Completed (2026)",
+    tag: "PROGRAM 2026",
+    thesis: "Selected for intensive technical development, collaborative software engineering sprints, workplace readiness, and professional mentorship."
   }
 ];
 
 export const certificationsData = [
   {
     id: "cert-1",
-    title: "Fully-Certified Entrepreneurship Educator",
-    issuer: "Wadhwani Entrepreneurship Network (WEN), Wadhwani Foundation",
-    meta: "2025 • Faculty Development Program, September 21 - October 17"
+    title: "AWS Cloud Practitioner Essentials",
+    issuer: "Amazon Web Services",
+    meta: "2025 • Cloud infrastructure, IAM security, compute instances, and billing fundamentals"
   },
   {
     id: "cert-2",
-    title: "Ignite Philippines: Certificate of Content Completion",
-    issuer: "Wadhwani Foundation",
-    meta: "2025 • 42 hours of coursework and assessments in ideation, business modeling, and financial planning"
+    title: "Full-Stack Web Development",
+    issuer: "Meta / Coursera",
+    meta: "2025 • Client-side UI architectures, RESTful API consumption, and modern web application development"
   },
   {
     id: "cert-3",
-    title: "Career Service Professional Eligibility",
-    issuer: "Civil Service Commission, Regional Office VII",
-    meta: "2023 • Passed the Career Service Examination (Professional) with a rating of 90.21%"
+    title: "Linux System Administration",
+    issuer: "Linux Foundation",
+    meta: "2024 • Shell scripting, user permissions, package management, and system daemon diagnostics"
+  },
+  {
+    id: "cert-4",
+    title: "Cybersecurity Basics & Defenses",
+    issuer: "IBM Security",
+    meta: "2024 • Threat vector mitigation, network security essentials, and secure programming practices"
   }
 ];
 
 export const experienceData = [
   {
     id: "exp-1",
-    role: "Professor",
+    role: "Computer Technology Student & Project Lead",
     institution: "School of Computer Studies, University of San Jose - Recoletos",
-    period: "JANUARY 2024 - PRESENT",
+    period: "2024 - PRESENT",
     points: [
-      "Specialize in C# programming, teaching students to build software end-to-end and to apply the industry practices expected of them in professional development work.",
-      "Teach core Computer Science subjects across the School of Computer Studies curriculum.",
-      "Mentor students through the full research cycle, from proposal to publication and conference presentation, and advise on internships, career development, and job placement.",
-      "Lead automation initiatives for the university, identifying manual workflows suited to automation with a focus on LMS operations and administrative processing.",
-      "Build software and course material with AI tooling in the loop, using it to speed up development, prototyping, and curriculum design so that what students learn keeps pace with current industry practice.",
-      "Model the professional use of AI for students, as a working tool subject to review and judgement, preparing them to compete for software work at a global standard."
+      "Specialize in C, Java, PHP, and modern web technologies (HTML, CSS, JavaScript, React).",
+      "Develop comprehensive coursework systems including data registries, interactive web games, and data structure implementations.",
+      "Collaborate with peers on full-stack web layouts, responsive user interfaces, and modular backend endpoints.",
+      "Explore cloud workflows, version control with Git/GitHub, and system administration on Linux.",
+      "Actively seeking Web Developer Internship opportunities to apply engineering skills to real-world production codebases."
     ]
   },
   {
     id: "exp-2",
-    role: "Technical Specialist / Data Analyst",
-    institution: "Enterprise Solutions & Analytics",
-    period: "JUNE 2023 - NOVEMBER 2023",
+    role: "Synchrony YES Participant",
+    institution: "Synchrony",
+    period: "2026",
     points: [
-      "Designed data pipelines and automated reporting workflows for operational metrics.",
-      "Developed custom analytics scripts in Python and SQL to identify process bottlenecks.",
-      "Collaborated across multidisciplinary teams to deploy cloud database instances and system integrations."
+      "Participated in the Youth Employment & Skills (YES) program, enhancing technical proficiency and teamwork acumen.",
+      "Engaged in hands-on coding challenges and collaborative software workshops.",
+      "Strengthened professional communication, agile collaboration, and software delivery standards."
     ]
   }
 ];
@@ -102,9 +107,9 @@ export const experienceData = [
 export const conferencesData = [
   {
     id: "conf-1",
-    role: "ORGANIZER OF CONFERENCES & WORKSHOPS",
-    period: "AUGUST 17-21, 2026",
-    title: "International Project-Based Learning 2026: Autonomous Quadruped Challenge",
+    role: "ACADEMIC COLLABORATION & SEMINARS",
+    period: "2025 - 2026",
+    title: "USJ-R School of Computer Studies Innovation Showcase",
     institution: "University of San Jose - Recoletos"
   }
 ];
@@ -112,15 +117,15 @@ export const conferencesData = [
 export const professionalSocietiesData = [
   {
     id: "soc-1",
-    period: "2026",
-    organization: "Institute of Computer Engineers of the Philippines (ICpEP)",
-    role: "Member"
+    period: "2024 - PRESENT",
+    organization: "USJ-R Junior Philippine Computer Society (JPCS)",
+    role: "Active Member"
   },
   {
     id: "soc-2",
-    period: "2024-2026",
-    organization: "Philippine Society of Information Technology Educators (PSITE)",
-    role: "Member"
+    period: "2024 - PRESENT",
+    organization: "USJ-R Computing Guild",
+    role: "Student Member"
   }
 ];
 
@@ -128,304 +133,195 @@ export const advisingMentoringData = [
   {
     id: "adv-1",
     period: "2026",
-    title: "ASEAN AI Hackathon 2026",
-    location: "Held online",
-    note: "Mentored USJ-R Flowerboys, which reached the Top 32."
+    title: "Peer Programming Study Lead",
+    location: "USJ-R Main Campus",
+    note: "Mentored classmates on C programming logic, pointer mechanics, and algorithmic loops."
   },
   {
     id: "adv-2",
-    period: "NOVEMBER 22, 2025",
-    title: "Philippine Startup Challenge X (PSC X), Regional Pitching Competition",
-    location: "Department of Information and Communications Technology (DICT), Mezzo Hotel, Cebu City",
-    note: "Mentored two teams: Lifeline and Sonnet4."
+    period: "2025",
+    title: "Web Development Workshop Collaborator",
+    location: "School of Computer Studies",
+    note: "Demonstrated responsive web layout techniques with CSS Grid and Bootstrap to introductory cohorts."
   },
   {
     id: "adv-3",
-    period: "OCTOBER 14, 2024",
-    title: "Philippine Startup Challenge IX (PSC 9), Regional Pitching Competition",
-    location: "Department of Information and Communications Technology (DICT), One Central Hotel",
-    note: "Mentored Waymaker."
+    period: "2025",
+    title: "Synchrony YES Team Collaboration",
+    location: "Online / Hybrid",
+    note: "Contributed to student group project deliverable and final showcase presentation."
   },
   {
     id: "adv-4",
-    period: "JULY 19, 2024",
-    title: "Hack4Gov 2024",
-    location: "Department of Information and Communications Technology (DICT), Cebu City",
-    note: "Mentored collegiate cybersecurity defense and digital forensics team."
-  },
-  {
-    id: "adv-5",
-    period: "2025",
-    title: "DICT Pitching Mentorship Program",
-    location: "Region VII Hub",
-    note: "Mentored student startup teams in business modeling and validation."
-  },
-  {
-    id: "adv-6",
-    period: "2024 - 2025",
-    title: "USJ-R Tech Titans Capstone Advisory",
-    location: "School of Computer Studies",
-    note: "Primary adviser for high-impact edge computing and computer vision research groups."
-  },
-  {
-    id: "adv-7",
-    period: "2024 - 2026",
-    title: "Undergraduate Thesis Defense Panelist",
-    location: "University of San Jose - Recoletos",
-    note: "Evaluated thesis defense candidates on algorithmic rigor, system architecture, and AI ethics."
-  },
-  {
-    id: "adv-8",
-    period: "2024 - Present",
-    title: "Competitive Programming Coaching",
-    location: "USJ-R Computing Society",
-    note: "Mentored students preparing for national collegiate programming challenges."
+    period: "2024",
+    title: "Collegiate Hackathon Participant",
+    location: "Cebu City, PH",
+    note: "Built prototype web utility solving student productivity tracking under strict time limits."
   }
 ];
 
 export const skillsList = [
-  { id: "cpp", name: "C++", category: "Language", isHighlight: false, icon: "cpp" },
-  { id: "csharp", name: "C#", category: "Language", isHighlight: false, icon: "csharp" },
-  { id: "dotnet", name: ".NET", category: "Framework", isHighlight: false, icon: "dotnet" },
+  { id: "react", name: "React", category: "Framework", isHighlight: true, icon: "react" },
+  { id: "js", name: "JavaScript", category: "Language", isHighlight: true, icon: "js" },
+  { id: "html", name: "HTML5", category: "Markup", isHighlight: false, icon: "html" },
+  { id: "css", name: "CSS3", category: "Style", isHighlight: false, icon: "css" },
+  { id: "php", name: "PHP", category: "Language", isHighlight: true, icon: "php" },
+  { id: "mysql", name: "MySQL", category: "Database", isHighlight: true, icon: "mysql" },
+  { id: "c", name: "C Language", category: "Language", isHighlight: true, icon: "c" },
+
   { id: "java", name: "Java", category: "Language", isHighlight: false, icon: "java" },
+  { id: "bootstrap", name: "Bootstrap", category: "Style", isHighlight: false, icon: "bootstrap" },
+  { id: "linux", name: "Linux", category: "OS", isHighlight: true, icon: "linux" },
+  { id: "git", name: "Git & GitHub", category: "Tools", isHighlight: false, icon: "git" },
+  { id: "rest", name: "REST APIs", category: "Architecture", isHighlight: false, icon: "rest" },
   { id: "python", name: "Python", category: "Language", isHighlight: false, icon: "python" },
-  { id: "r", name: "R", category: "Language", isHighlight: false, icon: "r" },
-  { id: "vb", name: "Visual Basic", category: "Language", isHighlight: false, icon: "vb" },
+  { id: "oop", name: "OOP Principles", category: "Concepts", isHighlight: false, icon: "oop" },
 
-  { id: "azure", name: "Azure", category: "Cloud", isHighlight: false, icon: "azure" },
-  { id: "aws", name: "AWS", category: "Cloud", isHighlight: true, icon: "aws" },
-  { id: "analytics", name: "Data Analytics", category: "Data", isHighlight: false, icon: "analytics" },
-  { id: "excel", name: "Microsoft Excel", category: "Productivity", isHighlight: false, icon: "excel" },
-  { id: "sql", name: "SQL", category: "Database", isHighlight: false, icon: "sql" },
-  { id: "dbms", name: "Database Systems", category: "Database", isHighlight: false, icon: "dbms" },
-  { id: "os", name: "Operating Systems", category: "Systems", isHighlight: false, icon: "os" },
-
-  { id: "autocad", name: "AutoCAD", category: "Engineering", isHighlight: true, icon: "autocad" },
-  { id: "electronics", name: "Electronics", category: "Hardware", isHighlight: false, icon: "electronics" },
-  { id: "ml", name: "Machine Learning", category: "AI", isHighlight: false, icon: "ml" },
-  { id: "embedded", name: "Embedded Systems", category: "Hardware", isHighlight: false, icon: "embedded" },
-  { id: "digital", name: "Digital Design", category: "Hardware", isHighlight: false, icon: "digital" },
-  { id: "networking", name: "Networking", category: "Systems", isHighlight: false, icon: "networking" },
-  { id: "math", name: "Mathematics", category: "Science", isHighlight: true, icon: "math" },
-
-  { id: "curriculum", name: "Curriculum Design", category: "Education", isHighlight: false, icon: "curriculum" },
-  { id: "research", name: "Academic Research", category: "Academia", isHighlight: false, icon: "research" },
-  { id: "circuit", name: "Circuit Design", category: "Hardware", isHighlight: false, icon: "circuit" },
-  { id: "ai", name: "Artificial Intelligence", category: "AI", isHighlight: false, icon: "ai" },
-  { id: "agentic", name: "Agentic AI", category: "AI", isHighlight: false, icon: "agentic" },
-  { id: "cv", name: "Computer Vision", category: "AI", isHighlight: true, icon: "cv" },
-  { id: "opencv", name: "OpenCV", category: "Vision", isHighlight: false, icon: "opencv" },
-
-  { id: "azure-ml", name: "Azure Machine Learning", category: "Cloud AI", isHighlight: false, icon: "azure-ml" },
-  { id: "azure-df", name: "Azure Data Factory", category: "Cloud Data", isHighlight: false, icon: "azure-df" },
-  { id: "powerbi", name: "Power BI", category: "Data", isHighlight: false, icon: "powerbi" },
-  { id: "iot", name: "Internet of Things", category: "Hardware", isHighlight: false, icon: "iot" },
-  { id: "lms-auto", name: "LMS Automation", category: "Automation", isHighlight: true, icon: "lms-auto" },
-  { id: "ai-dev", name: "AI-Assisted Development", category: "AI Tooling", isHighlight: false, icon: "ai-dev" },
-  { id: "tech-writing", name: "Technical Writing", category: "Writing", isHighlight: false, icon: "tech-writing" },
-
-  { id: "ms365", name: "Microsoft 365", category: "Productivity", isHighlight: false, icon: "ms365" },
-  { id: "pc-build", name: "PC Building & Troubleshooting", category: "Hardware", isHighlight: false, icon: "pc-build" }
-];
-
-export const researchList = [
-  {
-    id: "res-1",
-    title: "An Edge-Cloud Hybrid Deep Learning Framework for Road Damage Detection with Automated GPS-Based Localization",
-    role: "Lead Author & Master's Thesis",
-    venue: "Cebu Institute of Technology - University",
-    year: "2026",
-    abstract: "Proposes an end-to-end framework combining ultra-lightweight YOLO edge models running on mobile vehicular hardware with synchronized cloud data pipelines and precise GPS telemetry for municipal road maintenance."
-  },
-  {
-    id: "res-2",
-    title: "BrainIAC (Brain-Impulse Assisted Camera): EEG-Driven Microcontroller Image Capture",
-    role: "Primary Researcher",
-    venue: "Bohol Island State University",
-    year: "2021",
-    abstract: "Translates brainwave frequency band potentials through non-invasive EEG headsets into encoded Bluetooth packets received by ESP32 microcontrollers, triggering hands-free photography."
-  },
-  {
-    id: "res-3",
-    title: "Automated Learning Management System Optimization: Streamlining Academic Workflows with Intelligent Scripting",
-    role: "Author & Lead Developer",
-    venue: "USJ-R Academic Innovation Colloquium",
-    year: "2025",
-    abstract: "Presents an automated middleware engine that eliminates administrative grading bottlenecks, syncs roster updates, and integrates LMS webhooks into institutional data warehouses."
-  },
-  {
-    id: "res-4",
-    title: "Pedagogical Integration of Code Synthesizers & LLMs in Undergraduate C# Programming",
-    role: "Co-Author",
-    venue: "PSITE National Research Symposium",
-    year: "2025",
-    abstract: "Examines student cognitive retention, code inspection acumen, and debugging competence when generative AI coding partners are paired into foundational computing curricula."
-  },
-  {
-    id: "res-5",
-    title: "Low-Power Multi-Sensor Mesh Telemetry for Regional Micro-Climate Monitoring",
-    role: "Researcher",
-    venue: "ICpEP Technical Proceedings",
-    year: "2024",
-    abstract: "Deploys LoRaWAN sensor nodes with solar harvesting circuitry to provide real-time environmental telemetry across remote agricultural zones."
-  },
-  {
-    id: "res-6",
-    title: "Benchmark Study of Embedded Neural Accelerators on Real-Time Robotic Perception",
-    role: "Lead Investigator",
-    venue: "Robotics & Automation Conference",
-    year: "2025",
-    abstract: "Compares inference latency, thermal dissipation, and quantized precision across Edge TPU, Jetson Nano, and ESP32-S3 platforms for autonomous ground rovers."
-  },
-  {
-    id: "res-7",
-    title: "Industry-Aligned Curriculum Transformation for Next-Generation Computing Engineers",
-    role: "Author",
-    venue: "Higher Education Technology Journal",
-    year: "2024",
-    abstract: "A structured methodology for embedding DevOps, cloud infrastructure, and AI engineering standards directly into accredited 4-year degree programs."
-  }
-];
-
-export const talksList = [
-  {
-    id: "talk-1",
-    title: "Agentic AI & The Future of Software Engineering Education",
-    event: "Keynote Speaker, PSITE Regional Convention",
-    year: "2026",
-    desc: "Explored how autonomous agent frameworks are transforming the roles of computer science educators and how students can architect agent-driven workflows."
-  },
-  {
-    id: "talk-2",
-    title: "Modern Full-Stack C# and .NET Enterprise Architecture",
-    event: "Workshop Lead, USJ-R DevCon 2025",
-    year: "2025",
-    desc: "Hands-on masterclass covering ASP.NET Core, Entity Framework Core, CQRS patterns, and clean architecture principles."
-  },
-  {
-    id: "talk-3",
-    title: "Edge Vision: Real-Time Object Detection on Embedded Systems",
-    event: "ICpEP Regional Summit",
-    year: "2025",
-    desc: "Demonstrated live deployment of quantized YOLO models onto edge hardware with OpenCV and Python."
-  },
-  {
-    id: "talk-4",
-    title: "From Thesis to Publication: A Step-by-Step Guide for Computing Researchers",
-    event: "School of Computer Studies Colloquium",
-    year: "2025",
-    desc: "Guided graduate and undergraduate students through literature synthesis, experimental setup, and peer-reviewed paper submissions."
-  },
-  {
-    id: "talk-5",
-    title: "Empowering Startup Founders: Ideation to Minimum Viable Product",
-    event: "DICT Region VII Startup Bootcamp",
-    year: "2024",
-    desc: "Mentored student startup founders on technical feasibility, API architectures, and rapid MVP iteration."
-  },
-  {
-    id: "talk-6",
-    title: "Automating Academic Workflows with Modern Toolchains",
-    event: "USJ-R Faculty Development Series",
-    year: "2024",
-    desc: "Demonstrated techniques for automating grading, student progress dashboards, and learning analytics."
-  },
-  {
-    id: "talk-7",
-    title: "Demystifying Deep Learning: Practical Computer Vision in the Cloud",
-    event: "Graduate Seminar, CIT-U",
-    year: "2024",
-    desc: "Walkthrough of cloud-based transfer learning, dataset augmentation, and distributed training using Azure Machine Learning."
-  },
-  {
-    id: "talk-8",
-    title: "Ethics, Evaluation, and Verification of AI-Generated Code in Academe",
-    event: "SCS Round Table Symposium",
-    year: "2024",
-    desc: "Discussion on maintaining software engineering craftsmanship and critical code review standards in the AI era."
-  }
+  { id: "ds", name: "Data Structures", category: "Concepts", isHighlight: false, icon: "ds" },
+  { id: "algorithms", name: "Algorithms", category: "Concepts", isHighlight: false, icon: "algorithms" },
+  { id: "vite", name: "Vite", category: "Tooling", isHighlight: false, icon: "vite" },
+  { id: "responsive", name: "Responsive Design", category: "Design", isHighlight: false, icon: "responsive" },
+  { id: "pc-build", name: "PC Building", category: "Hardware", isHighlight: false, icon: "pc-build" },
+  { id: "sql", name: "SQL Queries", category: "Database", isHighlight: false, icon: "sql" },
+  { id: "troubleshoot", name: "Troubleshooting", category: "Hardware", isHighlight: false, icon: "troubleshoot" }
 ];
 
 export const projectsList = [
   {
-    id: "proj-1",
-    title: "Autonomous Quadruped Robot Platform",
-    category: "Robotics & Embedded Systems",
-    desc: "Robotic quadruped platform built for the International Project-Based Learning Challenge at USJ-R featuring real-time inverse kinematics and terrain navigation.",
-    tech: ["C++", "Embedded Systems", "Robotics", "Digital Design"]
+    id: 1,
+    title: "Personal Brand Workstation",
+    category: "React & Custom CSS",
+    desc: "Developer workstation portfolio featuring interactive architecture, live countdown ticker, custom PC case graphic, and responsive 3-column layout.",
+    tech: ["JavaScript", "React", "HTML", "CSS", "Vite"],
+    link: "https://github.com/lolgamertopre/my-personal-brand"
   },
   {
-    id: "proj-2",
-    title: "Edge-Cloud Road Damage Detection Framework",
-    category: "AI & Computer Vision",
-    desc: "Hybrid deep learning framework that detects road distress using vehicle-mounted cameras and transmits geo-tagged telemetry to municipal cloud servers.",
-    tech: ["Python", "Computer Vision", "OpenCV", "Azure", "GPS"]
+    id: 2,
+    title: "SubSentry Subscription Auditor",
+    category: "Web Application",
+    desc: "Educational web application built for managing and auditing active subscription services using Bootstrap and CSS styling.",
+    tech: ["CSS", "HTML", "Bootstrap", "JavaScript"],
+    link: "https://github.com/lolgamertopre/SPEC-SubSentry-Subscription-Auditor-PROF-SIR-MACTO"
   },
   {
-    id: "proj-3",
-    title: "BrainIAC: Neural-Impulse Camera",
-    category: "Bio-Informatics & Hardware",
-    desc: "Hands-free photography system using an EEG headset to capture brainwave patterns, filtered and transmitted over Bluetooth to trigger an ESP32 camera.",
-    tech: ["C", "ESP32", "Bluetooth", "EEG", "Hardware"]
+    id: 3,
+    title: "Sir Eric Magto Final Project",
+    category: "C Programming",
+    desc: "Comprehensive C language project implementing core data structures, algorithms, and modular program logic for summer coursework.",
+    tech: ["C", "Data Structures", "Algorithms"],
+    link: "https://github.com/lolgamertopre/Sir-Eric-Magto-Final-Project"
   },
   {
-    id: "proj-4",
-    title: "USJ-R LMS Automated Workflow Engine",
-    category: "Automation & Enterprise",
-    desc: "Custom automated middleware orchestrating course creation, student enrollment validation, and grading sync between LMS platforms and university databases.",
-    tech: ["C#", ".NET", "SQL", "LMS Automation", "REST API"]
+    id: 4,
+    title: "Dr. Santos Student Registry",
+    category: "CLI System",
+    desc: "Student registry management system written in C language featuring file record persistence, data validation, and search indexing.",
+    tech: ["C", "File Handling", "Algorithms"],
+    link: "https://github.com/lolgamertopre/Challenge-1-Dr.-Santos-Student-Registry-Sherwin-PROJECT"
   },
   {
-    id: "proj-5",
-    title: "Custom Liquid-Cooled Engineering Workstation",
-    category: "Hardware & PC Architecture",
-    desc: "High-performance dual-chamber liquid-cooled computing rig custom-built for local deep learning model training, CAD rendering, and simulation workloads.",
-    tech: ["PC Building", "Hardware", "Overclocking", "Cooling"]
+    id: 5,
+    title: "SPEC Jack 'N Poy Game",
+    category: "Interactive Game",
+    desc: "Interactive Jack 'N Poy rock-paper-scissors game implemented with vanilla JavaScript event listeners and dynamic DOM manipulation.",
+    tech: ["JavaScript", "HTML", "CSS"],
+    link: "https://github.com/lolgamertopre/SPEC-JACK-N-POY-for-Macto"
   },
   {
-    id: "proj-6",
-    title: "Micro-Telemetry LoRaWAN Environmental Mesh",
-    category: "Internet of Things (IoT)",
-    desc: "Low-power decentralized sensor network collecting temperature, humidity, and air quality data with solar power management and cloud syncing.",
-    tech: ["IoT", "Circuit Design", "Azure Data Factory", "Power BI"]
+    id: 6,
+    title: "Java Hangman Game",
+    category: "Java Application",
+    desc: "Console-based Hangman word guessing game in Java practicing Java Collections, ArrayLists, and robust game loops.",
+    tech: ["Java", "OOP", "Collections"],
+    link: "https://github.com/lolgamertopre/Hangman-Game"
   },
   {
-    id: "proj-7",
-    title: "AI Coursework & Rubric Synthesizer",
-    category: "AI Tooling & Education",
-    desc: "Internal tool for educators to generate Bloom-taxonomy-aligned programming assessments, unit test testcases, and grading criteria.",
-    tech: ["Python", "Agentic AI", "AI-Assisted Development"]
+    id: 7,
+    title: "Summer Class Grade Calculator",
+    category: "C Utility",
+    desc: "Utility program developed in C language to accurately calculate student grades, weighted averages, and GPA summaries.",
+    tech: ["C", "Math Logic"],
+    link: "https://github.com/lolgamertopre/Summer-Class-Banquil-Grade-Calculator."
   },
   {
-    id: "proj-8",
-    title: "Enterprise Data Analytics Pipeline",
-    category: "Cloud Data Engineering",
-    desc: "Scalable ETL pipeline built on Azure Data Factory and Power BI for ingesting high-volume institutional metrics with automated scheduling.",
-    tech: ["Azure Data Factory", "Power BI", "SQL", "Data Analytics"]
+    id: 8,
+    title: "Spec 2 Bootstrap Project",
+    category: "Responsive Design",
+    desc: "Responsive web layout showcasing modern Bootstrap grid system, customized card components, and CSS utility classes.",
+    tech: ["HTML", "CSS", "Bootstrap"],
+    link: "https://github.com/lolgamertopre/my-output-for-spec-2-zzzzz"
+  },
+  {
+    id: 9,
+    title: "Java OOP Practice & Exercises",
+    category: "Object-Oriented Programming",
+    desc: "Collection of Java OOP programs practicing class inheritance, encapsulation, polymorphism, and interface implementation.",
+    tech: ["Java", "OOP Design"],
+    link: "https://github.com/lolgamertopre/Session-4-Java-Object-Oriented-Programming-with-Quentin-CILLIERRE-Dimitri-LAFITTE-June-15-2026"
+  },
+  {
+    id: 10,
+    title: "C Programming Practice & Loops",
+    category: "Algorithmic Logic",
+    desc: "Practice repository for C language loops, conditionals, multidimensional arrays, and problem-solving fundamentals.",
+    tech: ["C", "Algorithms"],
+    link: "https://github.com/lolgamertopre/PROG-PRAC"
+  },
+  {
+    id: 11,
+    title: "WorldTrigger Project",
+    category: "Java Project",
+    desc: "Java programming project created to practice software architecture techniques and modular OOP principles.",
+    tech: ["Java", "OOP"],
+    link: "https://github.com/lolgamertopre/WorldTrigger-"
+  },
+  {
+    id: 12,
+    title: "2nd Semester Web Project",
+    category: "Web Development",
+    desc: "Semester project demonstrating foundational HTML page structure, CSS layouts, and introductory JavaScript logic.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    link: "https://github.com/lolgamertopre/my-2nd-semester-project-sheesh"
   }
 ];
 
 export const coursesList = [
-  { code: "CS 202", title: "Object-Oriented Programming with C#", desc: "Core object-oriented paradigms, interfaces, delegates, LINQ, and asynchronous programming." },
-  { code: "CS 203", title: "Advanced .NET Architecture", desc: "Design patterns, MVC, Web APIs, Entity Framework Core, and enterprise software engineering." },
-  { code: "CS 201", title: "Data Structures & Algorithms", desc: "Algorithmic complexity, trees, graphs, sorting, searching, and dynamic programming." },
-  { code: "CS 101", title: "Introduction to Computing", desc: "Foundational computer science principles, computer hardware, binary representations, and logic." },
-  { code: "CS 301", title: "Operating Systems Principles", desc: "Process scheduling, thread concurrency, memory management, file systems, and virtualization." },
-  { code: "CS 302", title: "Database Management Systems", desc: "Relational database design, normal forms, transaction processing, SQL, and indexing." },
-  { code: "CS 303", title: "Computer Architecture & Organization", desc: "Instruction set architectures, processor pipelining, cache memory hierarchy, and buses." },
-  { code: "CS 304", title: "Computer Networks", desc: "OSI model, TCP/IP protocol suite, socket programming, routing algorithms, and network security." },
-  { code: "CS 305", title: "Software Engineering Methodologies", desc: "Agile methodologies, CI/CD, software modeling with UML, and quality assurance." },
-  { code: "CS 306", title: "Web Systems & Technologies", desc: "Modern full-stack web architectures, client-server communications, APIs, and cloud deployments." },
-  { code: "CS 401", title: "Artificial Intelligence Foundations", desc: "Heuristic search, knowledge representation, expert systems, and probabilistic reasoning." },
-  { code: "CS 402", title: "Machine Learning & Deep Neural Networks", desc: "Supervised and unsupervised learning, convolutional neural networks, model evaluation, and deployment." },
-  { code: "CS 403", title: "Computer Vision & Image Processing", desc: "Feature extraction, spatial transformations, object detection with YOLO, and OpenCV pipelines." },
-  { code: "CS 404", title: "Cloud Computing & Serverless Architectures", desc: "Cloud deployment patterns, microservices, containerization, and serverless compute on Azure & AWS." },
-  { code: "CpE 201", title: "Digital Logic & Circuit Design", desc: "Boolean algebra, combinational logic circuits, sequential flip-flops, state machines, and HDL." },
-  { code: "CpE 301", title: "Microprocessors & Embedded Systems", desc: "Microcontroller programming, GPIO, interrupts, timers, and embedded communication protocols (I2C, SPI, UART)." },
-  { code: "CpE 302", title: "Internet of Things (IoT) Prototyping", desc: "Sensor integration, wireless telemetry, MQTT protocols, and cloud edge gateways." },
-  { code: "CpE 401", title: "Robotics & Autonomous Systems", desc: "Kinematics, actuator control, sensor fusion, path planning, and autonomous robot navigation." },
-  { code: "RES 101", title: "Methods of Research in Computing", desc: "Research formulation, experimental design, scientific literature synthesis, and publication standards." },
-  { code: "CAP 401", title: "Capstone Project & Thesis Mentorship I", desc: "Proposal development, technical requirements analysis, prototype formulation, and defense." },
-  { code: "CAP 402", title: "Capstone Project & Thesis Mentorship II", desc: "Full software implementation, system testing, user evaluation, and final defense." }
+  { code: "ACT 101", title: "Introduction to Computing", desc: "Foundations of computing, binary representations, computer architecture, and algorithm concepts." },
+  { code: "ACT 102", title: "Fundamentals of Programming (C Language)", desc: "Structured programming, data types, control flow, functions, arrays, and memory pointers." },
+  { code: "ACT 201", title: "Object-Oriented Programming (Java)", desc: "Classes, objects, inheritance, encapsulation, polymorphism, and Java Collections Framework." },
+  { code: "ACT 202", title: "Data Structures & Algorithms", desc: "Linked lists, stacks, queues, binary trees, sorting algorithms, and complexity analysis." },
+  { code: "ACT 203", title: "Web Systems & Technologies (HTML, CSS, JS)", desc: "Semantic HTML5, CSS responsive layouts, DOM manipulation, and asynchronous JavaScript." },
+  { code: "ACT 204", title: "Database Management Systems (MySQL)", desc: "Entity-Relationship modeling, normalization, SQL DDL/DML, and transactional queries." },
+  { code: "ACT 301", title: "Server-Side Web Development (PHP)", desc: "Backend scripting, sessions, authentication, CRUD operations, and database integration." },
+  { code: "ACT 302", title: "Operating Systems & Linux Fundamentals", desc: "Process management, memory scheduling, file system permissions, and shell scripting." }
 ];
 
+export const recommendationsList = [
+  {
+    id: "rec-1",
+    author: "Academic Faculty & Mentors",
+    role: "School of Computer Studies, USJ-R",
+    quote: "Sherwin demonstrates consistent diligence, strong problem-solving acumen in C and web development, and an eager appetite for mastering new software tools."
+  },
+  {
+    id: "rec-2",
+    author: "Peer Collaborators",
+    role: "Student Project Teams",
+    quote: "Great team player who writes clean, readable code and communicates reliably across project deadlines and team sprint milestones."
+  }
+];
+
+export const answersList = [
+  {
+    q: "What positions are you currently seeking?",
+    a: "I am actively seeking Web Developer Internship and Junior Web Developer positions where I can contribute to real-world codebases, learn from senior engineering mentors, and build clean user experiences."
+  },
+  {
+    q: "What is your primary tech stack?",
+    a: "My core stack includes HTML5, CSS3, JavaScript, React, PHP, MySQL, C programming, and Linux development environments."
+  },
+  {
+    q: "Where are you located and available?",
+    a: "I am located in Cebu City, Philippines (PHT / GMT+8) and open for on-site or remote internship opportunities."
+  }
+];
