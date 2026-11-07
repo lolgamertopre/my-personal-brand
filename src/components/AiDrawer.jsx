@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function AiDrawer({ isOpen, onClose }) {
   const [inputMsg, setInputMsg] = useState('');

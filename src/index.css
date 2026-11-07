@@ -1,46 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* index.css - Engr. Violdan E. Bayocot Portfolio Styling */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@700;800;900&display=swap');
 
 :root {
-  --bg-primary: #090a0f;
-  --bg-secondary: #11131c;
-  --bg-card: #151822;
-  --bg-card-hover: #1c202e;
-  --bg-input: #0f1118;
-  --border-color: #232736;
-  --border-glow: rgba(56, 189, 248, 0.35);
-  --accent-cyan: #38bdf8;
-  --accent-blue: #3b82f6;
-  --accent-indigo: #6366f1;
-  --text-main: #f3f4f6;
-  --text-muted: #9ca3af;
-  --text-subtle: #6b7280;
-  --badge-bg: rgba(56, 189, 248, 0.1);
-  --badge-border: rgba(56, 189, 248, 0.25);
-  --shadow-main: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 25px rgba(56, 189, 248, 0.15);
-  
-  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-mono: 'Fira Code', ui-monospace, SFMono-Regular, Consolas, monospace;
-}
+  /* Warm Parchment Palette */
+  --bg-parchment: #E8DFD0;
+  --bg-parchment-light: #F7F2E9;
+  --bg-parchment-card: #F2ECE0;
+  --bg-dark-sidebar: #1E1B18;
+  --bg-dark-button: #282420;
+  --bg-dark-button-hover: #38322B;
 
-[data-theme='light'] {
-  --bg-primary: #f8fafc;
-  --bg-secondary: #ffffff;
-  --bg-card: #ffffff;
-  --bg-card-hover: #f1f5f9;
-  --bg-input: #f1f5f9;
-  --border-color: #e2e8f0;
-  --border-glow: rgba(37, 99, 235, 0.35);
-  --accent-cyan: #0284c7;
-  --accent-blue: #2563eb;
-  --accent-indigo: #4f46e5;
-  --text-main: #0f172a;
-  --text-muted: #475569;
-  --text-subtle: #64748b;
-  --badge-bg: rgba(2, 132, 199, 0.08);
-  --badge-border: rgba(2, 132, 199, 0.2);
-  --shadow-main: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
-  --shadow-glow: 0 0 25px rgba(2, 132, 199, 0.1);
+  /* Terracotta / Burnt Orange Accents */
+  --accent-terracotta: #C84B26;
+  --accent-terracotta-hover: #B53E1B;
+  --accent-rust-light: #E06742;
+
+  /* Text Colors */
+  --text-dark-primary: #1A1815;
+  --text-dark-secondary: #3D3730;
+  --text-dark-muted: #6E665C;
+  --text-dark-subtle: #8A8175;
+
+  --text-light-primary: #F7F3EE;
+  --text-light-secondary: #C7BEB3;
+  --text-light-muted: #8F8578;
+
+  /* Borders & Dividers */
+  --border-parchment: #D8CCBA;
+  --border-parchment-subtle: #E2D7C7;
+  --border-dark: #352F28;
+
+  /* Typography Families */
+  --font-display: 'Syne', -apple-system, sans-serif;
+  --font-serif: 'Newsreader', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Space Mono', 'JetBrains Mono', Consolas, monospace;
 }
 
 * {
@@ -51,40 +45,50 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
-  background-color: var(--bg-primary);
-  color: var(--text-main);
+  background-color: var(--bg-parchment);
+  background-image: 
+    radial-gradient(rgba(180, 165, 145, 0.25) 1px, transparent 1px),
+    url('/paper-texture.png');
+  background-size: 24px 24px, 300px 300px;
+  background-repeat: repeat, repeat;
+  color: var(--text-dark-primary);
   font-family: var(--font-sans);
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
 }
 
-/* Custom Scrollbar */
+/* Custom Vintage Scrollbar */
 ::-webkit-scrollbar {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
 }
+
 ::-webkit-scrollbar-track {
-  background: var(--bg-primary);
+  background: var(--bg-parchment);
 }
+
 ::-webkit-scrollbar-thumb {
-  background: var(--border-color);
+  background: #C4B6A2;
   border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-cyan);
+  background: var(--accent-terracotta);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-button {
-  font-family: inherit;
 }

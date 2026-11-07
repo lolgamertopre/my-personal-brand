@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function MainContent({
   searchQuery,
@@ -9,9 +9,6 @@ export default function MainContent({
   projects,
   skills,
   experience,
-  certifications,
-  recommendations,
-  courses,
   faqs
 }) {
   const [expandedFaq, setExpandedFaq] = useState(null);
